@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    /* color: white; */
+}
+.index{ 
+    border-color:green ; 
+    border-style:solid ;
+    height:100vh; 
+}
+
