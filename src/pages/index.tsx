@@ -1,17 +1,22 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import Fullname from "../Components/Fullname/Fullname"
 import Navigation from "../Components/Navigation/Navigation"
 import staticData from "../static/staticData"
 import './index.css'
 const IndexPage = () => (
-  <div class={"index"}>
+  <div className="index">
     <Helmet htmlAttributes={staticData.siteLanguage}>
           <meta name="description" content={staticData.SiteDescription} />
           <title>{staticData.fullname}</title>
     </Helmet>
     <Navigation/>
-   <p>poriya Abdollahi</p>
-  </div>
+   <Fullname/>
+    </div>
+
 )
 
 export default IndexPage
+// display: block;
+// margin-left: auto;
+// margin-right: auto;
