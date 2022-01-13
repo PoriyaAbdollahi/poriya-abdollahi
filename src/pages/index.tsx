@@ -11,12 +11,9 @@ const IndexPage = () => (
           <title>{staticData.fullname}</title>
     </Helmet>
     <Navigation/>
-   <Fullname/>
+    <Fullname/>
     </div>
 
 )
 
 export default IndexPage
-// display: block;
-// margin-left: auto;
-// margin-right: auto;

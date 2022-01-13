@@ -4,7 +4,7 @@ import "./Navigation.css"
 const Span = ()=>(<div><span></span><span></span><span></span><span></span></div>)
 const Navigation = () => {
     return (
-        <nav  >
+        <nav>
             <div style={{float:"right" ,margin:'42px'}}>
             <Link className= {'btn'} to = "/"><Span/>{`//01. <خانه/>` }</Link>
             <Link className= {'btn'} to = "/"><Span/>{`//02. <نمونه کارها/>` }</Link>

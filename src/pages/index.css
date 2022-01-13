@@ -1,12 +1,25 @@
+
+:root {
+    --bg-color: #000000;
+    --primary-color: #21f34b;
+    --secondary-color: #258425;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: consolas, sans-serif;
+  }
+
 body {
     background-color: black;
-    /* color: white; */
     display: inline-block;
     width: 100%;
     position: relative;
 }
 .index{ 
-    border-color:green ; 
+    border-color:var(--secondary-color) ; 
     border-style:solid ;
     height:200vh; 
 }

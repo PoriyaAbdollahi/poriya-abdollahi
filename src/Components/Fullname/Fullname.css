@@ -1,19 +1,15 @@
-/*-------h1 name style---------*/
+/*-------intro style---------*/
 .who-i-am{
     color:#21f34b;
      font-size:40px ;
      display:block;
      margin-left:auto;
      margin-right:auto;
-     margin-top:300px;
     float:left ;
     padding-left:50px
-   
 }
 .who-i-am p:nth-child(odd){
     color: #184621;
-   
-   
 }
 .who-i-am p:nth-child(even){
     color: #01971f;
