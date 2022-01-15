@@ -1,21 +1,40 @@
 /*-------intro style---------*/
 .who-i-am{
-    color:#21f34b;
+    color:var(--primary-dark);
      font-size:40px ;
      display:block;
      margin-left:auto;
      margin-right:auto;
     float:left ;
-    padding-left:50px
+    padding-left:50px 
+    
 }
-.who-i-am p:nth-child(odd){
+/* .who-i-am p{
     color: #184621;
-}
-.who-i-am p:nth-child(even){
+} */
+/* .who-i-am p:nth-child(even){
     color: #01971f;
     padding-left: 30px;
    text-align: center;
+} */
+
+ .who-i-am span{
+    color: var(--primary-color);
+} 
+
+.who-i-am p {
+   margin-top: 1em;
+   margin-bottom: 1em;
 }
+
 h1{
+    margin: 5px;
     font-size:100px ;
+    color: var(--primary-color);
+}
+/* .Fullname__title{
+    color:var(--special-color);
+} */
+.fullname__describe span{
+    color:var(--special-color);
 }

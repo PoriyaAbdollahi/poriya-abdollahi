@@ -3,6 +3,8 @@
     --bg-color: #000000;
     --primary-color: #21f34b;
     --secondary-color: #258425;
+    --special-color:#50bb8f;
+    --primary-dark:#1d241e;
   }
 
   * {
@@ -17,6 +19,7 @@ body {
     display: inline-block;
     width: 100%;
     position: relative;
+    padding: 5px;
 }
 .index{ 
     border-color:var(--secondary-color) ; 
