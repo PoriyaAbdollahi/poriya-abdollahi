@@ -16,9 +16,7 @@
 
 body {
     background-color: black;
-    display: inline-block;
     width: 100%;
-    position: relative;
     padding: 5px;
 }
 .index{ 

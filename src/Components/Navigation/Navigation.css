@@ -89,5 +89,13 @@ nav{
 
 @media (max-width: 800px) {
   nav{
-    height:30em;}
+    height:35em;
+ }
 }
+
+@media (max-width:1000px) {
+  nav{
+    height:35em;
+ }
+}
+

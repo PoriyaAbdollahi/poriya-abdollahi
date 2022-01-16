@@ -2,21 +2,12 @@
 .who-i-am{
     color:var(--primary-dark);
      font-size:40px ;
-     display:block;
      margin-left:auto;
      margin-right:auto;
-    float:left ;
-    padding-left:50px 
-    
+    padding-left:50px ;
+    padding-right:50px ;
+    width: 80%;
 }
-/* .who-i-am p{
-    color: #184621;
-} */
-/* .who-i-am p:nth-child(even){
-    color: #01971f;
-    padding-left: 30px;
-   text-align: center;
-} */
 
  .who-i-am span{
     color: var(--primary-color);
@@ -32,9 +23,125 @@ h1{
     font-size:100px ;
     color: var(--primary-color);
 }
-/* .Fullname__title{
-    color:var(--special-color);
-} */
+
 .fullname__describe span{
     color:var(--special-color);
 }
+
+.curriculumvitae{
+ position: relative;
+ height: 25em;
+ overflow: visible;
+ justify-content: center;
+ 
+
+}
+
+.circleholder{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    margin-top: 25%;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+  }
+  
+  .flex-item-left {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 50%;
+    
+  }
+  
+
+  @media (max-width: 1200px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    
+  }
+  
+
+
+  
+  .icon {
+   color: var(--primary-color);
+    width: 76px;
+    height: 106px;
+    top: -370px;
+    margin: 0 auto;
+    position: relative;
+    }
+    .icon:hover {
+    -moz-animation: rotatecircle 4s infinite linear;
+    -webkit-animation: rotatecircle 4s linear;
+    }
+    .outerCircle {
+    background-color: transparent;
+    border: 8px solid rgba(97, 82, 72, 0.9);
+    opacity: .9;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-radius: 100px;
+    width: 223px;
+    height: 223px;
+    margin: 0 auto;
+    -moz-animation: spinPulse 3s infinite ease-in-out;
+    -webkit-animation: spinPulse 3s infinite ease-in-out;
+    }
+    .innerCircle {
+    background-color: transparent;
+    border: 5px solid rgba(189, 215, 60, 0.6);
+    opacity: .9;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-radius: 100px;
+    top: -220px;
+    width: 222px;
+    height: 222px;
+    margin: 0 auto;
+    position: relative;
+    -moz-animation: spinoffPulse 1s infinite linear;
+    -webkit-animation: spinoffPulse 1s infinite linear;
+    
+    }
+    
+    
+    @-moz-keyframes spinPulse {
+        0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #bdd73c;}
+        50% { -moz-transform:rotate(145deg); opacity:1; }
+        100% { -moz-transform:rotate(-320deg); opacity:0; }
+    }
+    @-moz-keyframes spinoffPulse {
+        0% { -moz-transform:rotate(0deg); }
+        100% { -moz-transform:rotate(360deg);  }
+    }
+    @-webkit-keyframes spinPulse {
+        0% { -webkit-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #bdd73c; }
+        50% { -webkit-transform:rotate(145deg); opacity:1;}
+        100% { -webkit-transform:rotate(-320deg); opacity:0; }
+    }
+    @-webkit-keyframes spinoffPulse {
+        0% { -webkit-transform:rotate(0deg); }
+        100% { -webkit-transform:rotate(360deg); }
+    }
+    @-moz-keyframes rotatecircle {
+        0% { -moz-transform:rotate(0deg); }
+        100% { -moz-transform:rotate(-360deg); }
+    }
+    
+    @-webkit-keyframes rotatecircle {
+        0% { -webkit-transform:rotate(0deg); }
+    100% { -webkit-transform:rotate(-360deg); }
+    }
