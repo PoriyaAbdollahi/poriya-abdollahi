@@ -1,7 +1,7 @@
 /*-------intro style---------*/
 .who-i-am{
     color:var(--primary-dark);
-     font-size:40px ;
+     font-size:30px ;
      margin-left:auto;
      margin-right:auto;
     padding-left:50px ;
@@ -20,7 +20,7 @@
 
 h1{
     margin: 5px;
-    font-size:100px ;
+    font-size:5rem;
     color: var(--primary-color);
 }
 
@@ -30,16 +30,17 @@ h1{
 
 .curriculumvitae{
  position: relative;
- height: 25em;
- overflow: visible;
+  overflow: visible;
  justify-content: center;
+ max-height: 10em;
+
  
 
 }
 
 .circleholder{
     width: 100%;
-    height: 50%;
+    max-height: 10em;
     overflow: hidden;
     margin: auto;
     position: relative;

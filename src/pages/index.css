@@ -22,5 +22,5 @@ body {
 .index{ 
     border-color:var(--secondary-color) ; 
     border-style:solid ;
-    height:200vh; 
+    
 }

@@ -1,0 +1,115 @@
+.porfolio__main__holder{
+   position: relative;
+   padding: 4em;
+}
+.portfolio{
+   /* background-color: white; */
+   margin-top: 2em;
+}
+.portfolio h2{
+   color:var(--primary-color);
+   text-align: center;
+   font-size: xx-large;
+}
+
+.portfolio h2 span{
+   color:var(--primary-dark);
+}
+.portfolio__content__holder {
+   display: flex;
+   flex-direction: row;
+   font-size: 1.5rem;
+   margin-top: 2em;
+   height: 100%;
+   max-height: fit-content;
+ }
+ 
+.portfolio__img{
+   padding: 10px;
+   flex: 50%;
+   width: 100%;
+   height: 100%;
+   max-width: 10em;
+   max-height: 10em;
+   min-width: 70px;
+   min-height: 70px;
+   border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+   margin: 20px;
+   border: solid 2px white;
+   
+}
+.portfolio__description__holder{
+   flex: 50%;
+   max-height: fit-content;
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.portfolio__content{
+   color: var(--secondary-color);
+   margin: 20px;
+   max-width: 500px;
+   text-align: center;
+   vertical-align: middle;
+   padding: 10px;
+ 
+}
+
+.portfolio__btn__left{
+   margin-right: 1em;
+   position: absolute;
+   background-color: transparent;
+   color: var(--secondary-color);
+   top: 50%;
+   margin-right: 2em;
+   width: 74px;
+   height: 74px;
+   left: 0;
+   border: solid 2px green;
+   border-radius:50%;
+}
+
+.portfolio__btn__right{
+   margin-left: 1em;
+   position: absolute;
+   background-color: transparent;
+   color: var(--secondary-color);
+   top: 50%;
+   right: 0;
+   width: 74px;
+   height: 74px;
+   max-width: 74px;
+   max-height: 74px;
+   border: solid 2px green;
+   border-radius:50%;
+}
+
+
+@media(max-width :600px){
+   .portfolio__content__holder{
+      font-size:calc(100%  + 5px);
+    }
+}
+.portfolio__content:hover{
+   /* animation: 3s ease-in-out alternate slidein; */
+
+   color:blue;
+}
+
+
+
+@keyframes slidein {
+   from {
+     margin-left: 100%;
+     width: 300%;
+   }
+ 
+   to {
+     margin-left: 0%;
+     width: 100%;
+   }
+ }
+ 
