@@ -9,19 +9,31 @@ const Portfolio = () => {
          <button className='portfolio__btn__left'>{`<`}</button>
          <div className='portfolio'>
             <h2><span>{`<h2>`}</span>نمونه کارها<span>{`</h2>`}</span></h2>
-           
+         
             <div className='portfolio__content__holder'> 
-               <img  className='portfolio__img' src={testimg} alt='abc'/>
-               <div className='portfolio__description__holder'>
-                <p className='portfolio__content'>کابین یک پروژه بازی  حدس کلمات است تکنلوژی های که در آن استفاده کردم جاوا و به عنوان پایگاه داده از کلید مقدار استفاده شده </p>
-               </div>
+            
+               <div className="container">
+                  
+                  <img className='portfolio__img' src={testimg} alt='abc'/>
+                
               
+               <div className="circle delay1"></div>
+               <div className="circle delay2"></div>
+               <div className="circle delay3"></div>
+               <div className="circle delay4"></div>
             </div>
-           
+               <div className='portfolio__description__holder'>
+                
+               <p className='portfolio__content'><span>{`<p>`}</span>کابین یک پروژه بازی  حدس کلمات است تکنلوژی های که در آن استفاده کردم جاوا و به عنوان پایگاه داده از کلید مقدار استفاده شده<span>{`</p>`}</span> </p>
+             
+               </div>
+            
+            </div>
+         
          </div>
          <button className='portfolio__btn__right'>{`>`}</button>
          </div>
-        
+   
       </SectionWrapper>
     
    )
