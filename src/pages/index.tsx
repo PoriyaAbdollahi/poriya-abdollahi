@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import ConnectWithMe from "../Components/ConnectWithMe/ConnectWithMe"
 import Fullname from "../Components/Fullname/Fullname"
 import Navigation from "../Components/Navigation/Navigation"
 import Portfolio from "../Components/Portfolio/Portfolio"
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Navigation/>
     <Fullname/>
     <Portfolio/>
+    <ConnectWithMe/>
     </div>
 
 )
