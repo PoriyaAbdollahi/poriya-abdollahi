@@ -1,0 +1,23 @@
+.skill__section h2{
+    color: var(--primary-color);
+    text-align: center;
+
+}
+.skill__section h2 span{
+    color: var(--primary-dark);
+    text-align: center;
+}
+.skill__list{}
+.skillProgress{}
+
+.skill__progress  path:hover{
+    opacity: 0.75;
+    stroke-width: 50px;
+    background-color: blue  ;
+    rotate: 45deg;
+}
+.skill__progress svg path{
+    stroke-width: 28;
+    opacity: 1;
+    animation: normal ;
+}

@@ -4,6 +4,7 @@ import ConnectWithMe from "../Components/ConnectWithMe/ConnectWithMe"
 import Fullname from "../Components/Fullname/Fullname"
 import Navigation from "../Components/Navigation/Navigation"
 import Portfolio from "../Components/Portfolio/Portfolio"
+import Skills from "../Components/Skills/Skills"
 import staticData from "../static/staticData"
 import './index.css'
 const IndexPage = () => (
@@ -15,7 +16,9 @@ const IndexPage = () => (
     <Navigation/>
     <Fullname/>
     <Portfolio/>
+    <Skills/>
     <ConnectWithMe/>
+
     </div>
 
 )
