@@ -1,7 +1,16 @@
 .skill__section h2{
     color: var(--primary-color);
     text-align: center;
-
+  
+}
+.skill__progress{
+    margin:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+    justify-content: center;
+    display: flex;
 }
 .skill__section h2 span{
     color: var(--primary-dark);
@@ -10,14 +19,39 @@
 .skill__list{}
 .skillProgress{}
 
-.skill__progress  path:hover{
+.skill__progress  svg path:hover{
     opacity: 0.75;
     stroke-width: 50px;
-    background-color: blue  ;
-    rotate: 45deg;
 }
-.skill__progress svg path{
+
+.skill__progress svg path:nth-child(odd){
     stroke-width: 28;
     opacity: 1;
-    animation: normal ;
+    margin:-60px 0 0 -60px;
+    animation: spiningOne 50s cubic-bezier(.3, 0, .2, 1) infinite;
+   transform-origin: center;
 }
+.skill__progress svg path:nth-child(even){
+    stroke-width: 28;
+    opacity: 1;
+    margin:-60px 0 0 -60px;
+    animation: spiningTwo 35s cubic-bezier(.3, 0, .2, 1) infinite;
+   transform-origin: center;
+}
+
+.skill__progress svg path:nth-child(even):hover{
+    opacity: 0.75;
+    stroke-width: 50px;
+}
+.skill__progress svg path:nth-child(odd):hover{
+    opacity: 0.75;
+    stroke-width: 50px;
+}
+@keyframes spiningOne {
+  50% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes spiningTwo {
+    50% { transform: rotate(360deg); }
+    100% { transform: rotate(-360deg); }
+  }
