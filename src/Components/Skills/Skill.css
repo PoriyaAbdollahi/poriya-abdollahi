@@ -1,23 +1,28 @@
 .skill__section h2{
     color: var(--primary-color);
     text-align: center;
-  
 }
+.skill__holder{
+    display: flex;
+    justify-content: center;
+}
+
 .skill__progress{
-    margin:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;  
     justify-content: center;
     display: flex;
+   
 }
 .skill__section h2 span{
     color: var(--primary-dark);
     text-align: center;
 }
-.skill__list{}
-.skillProgress{}
+.skill__list {
+    overflow: hidden;
+    max-height: 400px;
+}
+.skill__list li{
+    animation: changeColor 20s  infinite;
+}
 
 .skill__progress  svg path:hover{
     opacity: 0.75;
@@ -47,6 +52,7 @@
     opacity: 0.75;
     stroke-width: 50px;
 }
+
 @keyframes spiningOne {
   50% { transform: rotate(360deg); }
   100% { transform: rotate(0deg); }
@@ -54,4 +60,12 @@
 @keyframes spiningTwo {
     50% { transform: rotate(360deg); }
     100% { transform: rotate(-360deg); }
+  }
+  @keyframes changeColor {
+    50% {  color:var(--primary-dark);
+    opacity: 0.8; 
+    transform: translateY(0px);}
+    100% { color:var(--primary-color);
+        opacity: 0.5;
+        transform: translateY(400px);}
   }
