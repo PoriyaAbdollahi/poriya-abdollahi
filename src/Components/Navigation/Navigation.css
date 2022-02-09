@@ -1,9 +1,9 @@
 body {
-
   background-color: var(--bg-color);
 }
 nav{
-  height:20em;}
+  height:12em;
+}
 
 .btn {
   position: relative;
@@ -89,7 +89,7 @@ nav{
 
 @media (max-width: 800px) {
   nav{
-    height:35em;
+    height:25em;
  }
 }
 
