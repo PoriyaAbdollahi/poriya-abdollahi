@@ -63,7 +63,7 @@
 
 .portfolio__btn__left{
    margin-right: 1em;
-   position: absolute;
+   position: relative;
    background-color: transparent;
    color: var(--secondary-color);
    top: 50%;
@@ -73,11 +73,12 @@
    left: 0;
    border: solid 2px green;
    border-radius:50%;
+   float: left;
 }
 
 .portfolio__btn__right{
    margin-left: 1em;
-   position: absolute;
+   position: relative;
    background-color: transparent;
    color: var(--secondary-color);
    top: 50%;
@@ -88,6 +89,7 @@
    max-height: 74px;
    border: solid 2px green;
    border-radius:50%;
+   float: right;
 }
 
 
@@ -95,6 +97,11 @@
    .portfolio__content__holder{
       font-size:calc(100%  + 5px);
    }
+   .portfolio__content__holder{
+     flex-direction: column;
+     justify-content: center;
+   }
+   
 }
 
 

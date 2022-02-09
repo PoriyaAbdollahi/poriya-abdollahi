@@ -6,7 +6,7 @@ const Portfolio = () => {
    return (
       <SectionWrapper>
          <div className='porfolio__main__holder'>
-         <button className='portfolio__btn__left'>{`<`}</button>
+        
          <div className='portfolio'>
             <h2><span>{`<h2>`}</span>نمونه کارها<span>{`</h2>`}</span></h2>
          
@@ -31,9 +31,13 @@ const Portfolio = () => {
             </div>
          
          </div>
+           
+         <button className='portfolio__btn__left'>{`<`}</button>
          <button className='portfolio__btn__right'>{`>`}</button>
          </div>
-   
+     
+         
+       
       </SectionWrapper>
     
    )
