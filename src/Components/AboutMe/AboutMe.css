@@ -29,6 +29,11 @@
     margin: 4em;
     text-align: center;
 }
+.about__me p span{
+    
+    color: var(--primary-dark);
+ 
+}
 @keyframes changeImagemode {
     50%{
         opacity: 0.2;
