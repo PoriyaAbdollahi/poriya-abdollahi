@@ -1,0 +1,17 @@
+.chips{
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    height: 40px;
+    background: chartreuse;
+    padding: 8px 15px 10px 15px;
+    border-radius: 25px;
+    color: var(--primary-dark);
+    max-lines: 1;
+    line-height: 2px;
+    
+}
+
+.chips + .chips{
+   margin-left: 5px;
+}

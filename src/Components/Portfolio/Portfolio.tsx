@@ -2,6 +2,8 @@ import React , {useState} from 'react'
 import './Portfolio.css'
 import SectionWrapper from '../SectionWrapper/SectionWrapper'
 import portfolio from '../../static/staticData'
+import Chips from '../SubComponents/chips/Chips'
+import ChipsHolder from '../SubComponents/chips/ChipsHolder'
 const Portfolio = () => {
    const projects = portfolio.projects
   let  [sliderIndex , setSliderIndex] = useState(0)
@@ -46,12 +48,19 @@ const Portfolio = () => {
 
 </div> 
 
-         
+
          </div>
-           
+        
+         <ChipsHolder>
+            {projects[sliderIndex].tag.map((item)=>{
+               return  <Chips backgroundColor={item.color} text={item.name}/>
+            })}
+         </ChipsHolder>
          <button onClick={()=> prevSlide()} className='portfolio__btn__left'>{`<`}</button>
+         
          <button onClick={()=> nextSlide()}className='portfolio__btn__right'>{`>`}</button>
          </div>
+         
      
          
        
