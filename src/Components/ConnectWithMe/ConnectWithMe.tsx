@@ -7,31 +7,31 @@ const ConnectWithMe = () => {
     <div className="connect__holder">
       <h2><span>{`<h3>`}</span>ارتباط با من<span>{`</h3>`}</span></h2>
       <div className='social__media__holder'>
-        <div className='social__media__item social__one'>
+        <a   href='https://github.com/PoriyaAbdollahi' className='social__media__item social__one'>
+         <div>
+           Github
+         </div>
+        </a>
+        <a href='https://www.instagram.com/poriyarushan.dark/' className='social__media__item social__two'>
           <div>
-            <a>Github</a>           
+           Instagram        
           </div>
-        </div>
-        <div className='social__media__item social__two'>
+        </a>
+        <a href='https://www.linkedin.com/in/poriya-abdollahi-673942200/' className='social__media__item social__three'>
+         <div>
+           Linkedin
+         </div>
+        </a>
+        <a href='https://discord.gg/fhTMmhHb' className='social__media__item social__four'>
           <div>
-            <a>Instagram</a>           
+            Discord          
           </div>
-        </div>
-        <div className='social__media__item social__three'>
+        </a>
+        <a href ='mailto:poriyaa58@gmail.com' className='social__media__item social__five'>
           <div>
-            <a>Linkedin</a>           
+           Gmail           
           </div>
-        </div>
-        <div className='social__media__item social__four'>
-          <div>
-            <a>Discord</a>           
-          </div>
-        </div>
-        <div className='social__media__item social__five'>
-          <div>
-            <a href='#'>Gmail</a>           
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   </SectionWrapper>

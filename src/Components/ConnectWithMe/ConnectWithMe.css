@@ -46,33 +46,38 @@ margin:  0.1em auto;
    text-decoration: none;
    display: block;
    cursor: default;
-   color: inherit;
+   color: white;
 }
 
 .social__one{
   scale: 1.5;
   top: .5em;
+  text-decoration: none;
 }
 
 .social__two{
    scale: 1;
    top: 3em;
+   text-decoration: none;
  }
 
  .social__three{
    scale: 1.2;
    top: -0.5em;
+   text-decoration: none;
  }
 
  .social__four{
    scale: 2;
    top: 4em;
+   text-decoration: none;
  }
  
 
 .social__five{
    scale: 1.2;
    top: -1em;
+   text-decoration: none;
  }
  
 @media (max-width:600px) {
