@@ -13,42 +13,18 @@ const Skills = () => {
            
             <div className='skill__list'>
                 <ol>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
+                <li key={"skill1"}>clean code</li>
+                <li key={"skill2"}>git</li>
+                <li key={"skill3"}>Android Development</li>
+                <li key={"skill4"}>Computer Science</li>
+                <li key={"skill5"}>React</li>
+                <li key={"skill6"}>MySQL</li>
+                <li key={"skill7"}>REST APIs</li>
+                <li key={"skill8"}>Augmented Reality</li>
+                <li key={"skill9"}>MVVM</li>
+                <li key={"skill10"}>github</li>
+                <li key={"skill11"}>Agile</li>
+                
                 </ol>
             </div>
             <div className='skill__progress'>  
@@ -66,42 +42,16 @@ const Skills = () => {
        </div>
        <div className='skill__list'>
        <ol>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
-                <li>example</li>
-                <li>Example</li>
+                <li key={"skill12"}>Volley</li>
+                <li key={"skill13"}>DI</li>
+                <li key={"skill14"}>Realm </li>
+                <li key={"skill15"}>Room </li>
+                <li key={"skill16"}>ADB</li>
+                <li key={"skill17"}>GatsbyJS</li>
+                <li key={"skill18"}>HTML5</li>
+                <li key={"skill19"}>Electron.js</li>
+                <li key={"skill20"}>dagger</li>
+                <li key={"skill21"}>css</li>
                 </ol>
             </div>
        </div>
