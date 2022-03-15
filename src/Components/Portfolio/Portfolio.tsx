@@ -70,7 +70,7 @@ return item.node.fluid.originalName == imageList[sliderIndex]
          <div className='porfolio__main__holder'>
         
          <div className='portfolio'>
-            <h2><span>{`<h2>`}</span>نمونه کارها<span>{`</h2>`}</span></h2>
+            <h2 id='portfolio'><span>{`<h2>`}</span>نمونه کارها<span>{`</h2>`}</span></h2>
             <h3><span>{`<h3>`}</span>{projects[sliderIndex].title}<span>{`</h3>`}</span></h3>
          <div className='portfolio__content__holder'> 
             

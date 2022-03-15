@@ -219,6 +219,42 @@
       direction: rtl;
    }
 }
+
+@media(min-width :1200px){
+  .portfolio__content__holder{
+     font-size:0.8em;
+  }
+
+   .portfolio__btn__right{
+      width: 88px;
+      height: 88px;
+      margin-right: 25%;
+   }
+   .portfolio__btn__left{
+     width: 88px;
+     height: 88px;
+     margin-left: 25%;
+  }
+  .portfolio__content__holder {
+     font-size: 1.5rem;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+  }
+  .portfolio__description__holder{
+    flex: 50%;
+    /* margin: auto; */
+    max-height: fit-content;
+    max-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container{
+  /* margin: auto; */
+  justify-content: right;
+ }
+}
  
  @-webkit-keyframes waves {
    0% {

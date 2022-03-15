@@ -56,3 +56,28 @@
         max-width: 400px;
     }
 }
+
+@media (min-width: 1200px) {
+    .about__me__title{
+        margin-top: 5em;
+    }
+  
+    .about__me {
+        border-radius: 25px;
+        width: 100%;
+    }
+    .about__me p{
+        margin: auto auto auto auto;
+        border-radius: 25px;
+        width: 100%;
+        max-width: 400px;
+        
+    }
+    .about__me .about__me__image{
+        margin: 50px auto;
+        border-radius: 25px;
+        animation: changeImagemode 4s  infinite;
+        width: 100%;
+        max-width: 600px;
+    }
+}

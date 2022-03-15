@@ -5,7 +5,7 @@ const ConnectWithMe = () => {
   return (
   <SectionWrapper>
     <div className="connect__holder">
-      <h2><span>{`<h3>`}</span>ارتباط با من<span>{`</h3>`}</span></h2>
+      <h2 id='connectwithme'><span>{`<h3>`}</span>ارتباط با من<span>{`</h3>`}</span></h2>
       <div className='social__media__holder'>
         <a   href='https://github.com/PoriyaAbdollahi' className='social__media__item social__one'>
          <div>
