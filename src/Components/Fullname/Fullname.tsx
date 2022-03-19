@@ -6,7 +6,7 @@ const Fullname = () => {
     return (
         <SectionWrapper>
             <div className='flex-container flex-item-left'>
-            <div className="who-i-am">
+            <div className="who-i-am css-typing-paragraph">
                 <p>{`<p>`}<span>من</span>{`</p>`}</p>
                 <span>{"<h1>"}</span>
                 
