@@ -75,6 +75,10 @@
     margin: 0 auto;
     position: relative;
     }
+    .icon a{
+     text-decoration: none;
+     color: var(--primary-color);
+       }
     .icon:hover {
     -moz-animation: rotatecircle 4s infinite linear;
     -webkit-animation: rotatecircle 4s linear;
