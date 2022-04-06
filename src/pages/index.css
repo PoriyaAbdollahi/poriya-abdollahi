@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
 
 :root {
     --bg-color: #000000;
@@ -7,16 +8,12 @@
     --primary-dark:#1d241e;
   }
 
-  @font-face {
-    font-family:vazir;
-    src: url(../fonts/vazir-font-v16.1.0/Vazir-Light.woff);
-  }
- 
+
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:  vazir;
+    font-family:vazirmatn;
   }
 
  

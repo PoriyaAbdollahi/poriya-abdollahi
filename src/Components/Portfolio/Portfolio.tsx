@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import './Portfolio.css'
 import SectionWrapper from '../SectionWrapper/SectionWrapper'
-import portfolio from '../../static/staticData'
+import portfolio from '../../../static/staticData.ts'
 import Chips from '../SubComponents/chips/Chips'
 import ChipsHolder from '../SubComponents/chips/ChipsHolder'
 import { useStaticQuery, graphql } from "gatsby"

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Fullname.scss'
 import SectionWrapper from '../SectionWrapper/SectionWrapper'
-import resume from '../../static/resume.pdf'
+// import resume from '../../../static/resume.pdf'
 
 const Fullname = () => {
     return (
@@ -23,7 +23,7 @@ const Fullname = () => {
              <div className='circleholder' id='resumebtn'>
                 <div className="outerCircle"></div>
                 <div className="innerCircle"></div>
-                <div className="icon"><a href={resume} download>دانلود رزومه</a></div>
+                <div className="icon"><a href={"./resume.pdf"} download>دانلود رزومه</a></div>
             </div>              
              </div>
              </div>
