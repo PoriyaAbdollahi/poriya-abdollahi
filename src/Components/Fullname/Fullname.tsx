@@ -2,6 +2,7 @@ import React from 'react'
 import './Fullname.scss'
 import SectionWrapper from '../SectionWrapper/SectionWrapper'
 import resume from '../../static/resume.pdf'
+
 const Fullname = () => {
     return (
         <SectionWrapper>
