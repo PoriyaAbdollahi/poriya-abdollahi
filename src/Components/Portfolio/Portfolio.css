@@ -76,9 +76,10 @@
    background-color: transparent;
    color: var(--secondary-color);
    top: 50%;
-   margin-right: 2em;
    width: 74px;
    height: 74px;
+   max-width: 74px;
+   max-height: 74px;
    left: 0;
    border: solid 2px green;
    border-radius:50%;
