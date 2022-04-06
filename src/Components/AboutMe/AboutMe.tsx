@@ -3,6 +3,7 @@ import './AboutMe.css'
 import SectionWrapper from '../SectionWrapper/SectionWrapper';
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+
 const AboutMe = () => {
     const data = useStaticQuery(graphql`
     query {
