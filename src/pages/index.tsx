@@ -12,6 +12,7 @@ const IndexPage = () => (
   <div className="index">
     <Helmet htmlAttributes={staticData.siteLanguage}>
           <meta name="description" content={staticData.SiteDescription} />
+          <meta name="google-site-verification" content="Fy3Dj0vdvV8ICooKmDsgcwUSD3s8V1bS4Y6boGoFaoA" />
           <title>{staticData.fullname}</title>
     </Helmet>
     <Navigation/>
