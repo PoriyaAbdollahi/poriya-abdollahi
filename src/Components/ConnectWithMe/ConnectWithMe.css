@@ -1,10 +1,12 @@
 .connect__holder{
-  
+  margin-top: 20px;
 }
 
 .connect__holder h2 {
    color: var(--primary-color);
    text-align: center;
+   font-size: large;
+   margin-top: 20px;
 }
 .connect__holder h2 span{
    color: var(--primary-dark);
@@ -15,6 +17,8 @@ margin:  0.1em auto;
  display: flex;
  position: relative;
  height: 400px;
+ max-width: 800px;
+ padding-bottom: 10em;
 }
 .social__media__item{
    position: relative;
@@ -81,58 +85,18 @@ margin:  0.1em auto;
  }
  
 @media (max-width:600px) {
-      
-
-   .social__one{
-      scale: 1;
-      top: 1em;
-   }
-   
-   .social__two{
-      scale: .8;
-      top: 6em;
-   }
-   
-   .social__three{
-      scale: 1;
-      top: -1em;
-   }
-   
-   .social__four{
-      scale: 1.5;
-      top: 8em;
-   }
-   
-   
-   .social__five{
-      scale: 1;
-      top: -3em;
-   }
-   .social__media__item{
-      position: relative;
-      top: 20px;
-      color:var(--special-color);
-      border: 1px solid var(--special-color);;
-      border-radius: 50%;
-      width: 100px;
-      height:100px;
-      min-width: 60px;
-      text-align: center;
-      justify-content: center;
-      margin: auto ;
-      transition: background-color 5s ease;
-   }
-   .social__media__item div{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100px;
-   } 
    .social__media__holder{
-      margin:  auto;
-        width: 100%;
-       display: flex;
-       position: relative;
-       height: 300px;
+    flex-direction: column;
+    height: 800px;
       }
+      .social__media__item{
+         top: 0;
+         margin-top: auto;
+           }
+           .social__media__item:nth-child(odd){
+            margin-right: 2em;
+              }
+              .social__media__item:nth-child(even){
+               margin-left: 2em;
+                 }
 }

@@ -5,10 +5,7 @@
   
 }
 .about__me__title span{
-   
     color: var(--primary-dark);
- 
-  
 }
 .about__me{
     margin:20px auto;
@@ -61,8 +58,39 @@
     .about__me__title{
         margin-top: 5em;
     }
-  
+    #aboutme{
+        font-size: xx-large;
+    }
     .about__me {
+        font-size: larger;
+        border-radius: 25px;
+        width: 100%;
+    }
+    .about__me p{
+        margin: auto auto auto auto;
+        border-radius: 25px;
+        width: 100%;
+        max-width: 500px;
+        
+    }
+    .about__me .about__me__image{
+        margin: 50px auto;
+        border-radius: 25px;
+        animation: changeImagemode 4s  infinite;
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about__me__title{
+        margin-top: 5em;
+    }
+    #aboutme{
+        font-size: large;
+    }
+    .about__me {
+        font-size: small;
         border-radius: 25px;
         width: 100%;
     }
@@ -74,7 +102,7 @@
         
     }
     .about__me .about__me__image{
-        margin: 50px auto;
+        margin: 20px auto;
         border-radius: 25px;
         animation: changeImagemode 4s  infinite;
         width: 100%;

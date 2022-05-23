@@ -1,15 +1,14 @@
 .chips{
     text-align: center;
-    margin: auto;
-    width: fit-content;
-    height: 40px;
+    width: 100%;
+    height:fit-content;
+    padding: 10px;
     background: chartreuse;
-    padding: 8px 15px 10px 15px;
     border-radius: 25px;
-    color: var(--primary-dark);
     max-lines: 1;
-    line-height: 2px;
-    
+    margin-top: 2px;
+    color: rgb(177, 177, 177);
+    font-size: smaller;
 }
 
 .chips + .chips{

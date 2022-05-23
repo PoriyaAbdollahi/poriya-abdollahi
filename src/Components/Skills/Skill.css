@@ -1,10 +1,15 @@
+.skill__section{
+    margin-top: 4em;
+}
 .skill__section h2{
+    margin: 20px;
     color: var(--primary-color);
     text-align: center;
 }
 .skill__holder{
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .skill__progress{
@@ -68,4 +73,11 @@
     100% { color:var(--primary-color);
         opacity: 0.5;
         transform: translateY(400px);}
+  }
+
+  @media (max-width:600px) {
+    .skill__section h2{
+        margin-top: 20px;
+        font-size: large;
+    }
   }

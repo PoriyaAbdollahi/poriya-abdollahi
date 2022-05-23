@@ -1,7 +1,7 @@
 body {
   background-color: var(--bg-color);
 }
-nav{
+.nav{
   height:12em;
 }
 
@@ -87,17 +87,7 @@ nav{
   transition: 1s 0.75s;
 }
 
-@media (max-width: 800px) {
-  nav{
-    height:25em;
- }
-}
 
-@media (max-width:1000px) {
-  nav{
-    height:35em;
- }
-}
 
 .css-typing a {
   border-right: .15em solid var(--primary-color);
@@ -223,5 +213,52 @@ nav{
   50% {
     border-color: tranparent;
   }
+}
+
+.link-holder-right{
+  float: right;
+  margin: 42px;
+}
+.link-holder-left{
+  float: left;
+  margin: 42px;
+}
+
+
+@media (max-width: 800px) {
+  .nav{
+    height:3em;
+  
+ }
+ .btn{
+   font-size: x-large;
+ }
+}
+@media (max-width: 600px) {
+  .nav{
+    height:12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+   
+    align-items: center;
+ }
+ .btn{
+  font-size:small;
+  padding: 15px 15px;
+
+}
+
+.link-holder-right{
+  float: none;
+  margin: 22px;
+}
+.link-holder-left{
+  float: none;
+  margin: 22px;
+}
+
+
 }
 

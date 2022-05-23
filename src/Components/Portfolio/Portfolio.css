@@ -1,6 +1,6 @@
 .porfolio__main__holder{
    position: relative;
-   padding: 4em;
+   padding: 2em;
 }
 .portfolio{
    margin-top: 2em;
@@ -8,7 +8,8 @@
 .portfolio h2{
    color:var(--primary-color);
    text-align: center;
-   font-size: xx-large;
+   font-size: x-large;
+   
 }
 .portfolio h3{
   color:var(--special-color);
@@ -25,7 +26,7 @@
 .portfolio__content__holder {
    display: flex;
    flex-direction: row;
-   font-size: 1.5em;
+   font-size: large;
    margin-top: 2em;
    height: 100%;
    max-height: fit-content;
@@ -59,6 +60,7 @@
    color: var(--secondary-color);
    margin: 20px;
    max-width: 500px;
+   
    text-align: center;
    direction: ltr;
    vertical-align: middle;
@@ -102,6 +104,25 @@
    float: right;
 }
 
+.portfolio__btn__right:hover{
+border: 20px solid greenyellow ;
+background-color: rgb(167, 252, 10);
+transition:border background-color color font-size transform;
+transition-duration: 2s;
+transform: translateX(10px) scale(1.2);
+color: black;
+font-size: 20px;
+}
+
+.portfolio__btn__left:hover{
+  border: 20px solid greenyellow ;
+  background-color: rgb(167, 252, 10);
+  transition:border background-color color font-size transform;
+  transition-duration: 2s;
+  transform: translateX(-10px) scale(1.2);
+  color: black;
+  font-size: 20px;
+  }
 
 @media(max-width :600px){
    .portfolio__content__holder{
@@ -133,13 +154,13 @@
  /* --- */
 
 .container {
+   justify-content: center;
    position: relative;
    width: 100%;
    height: 100%; 
    background-color: transparent;
    max-width: fit-content;
    max-height: fit-content;
-
  }
  .container:hover .delay1 {
    -webkit-animation: waves 2.5s linear;
@@ -189,17 +210,35 @@
    margin: 20px;
    flex: 50%;
  }
- @media(max-width :800px){
-   .circle {
-      max-width: 8em;
-      max-height: 8em;
-      background-color: transparent;
-      border: 0 solid transparent ;
-    }
- }
+
  @media(max-width :600px){
+
+  .portfolio h2{
+    font-size: large;
+    margin-top:1em
+ }
+ .portfolio h3{
+   font-size: small;
+   margin-top: 2em;
+ }
+
+ .circle {
+  max-width: 8em;
+  max-height: 8em;
+  background-color: transparent;
+  border: 0 solid transparent ;
+}
+.portfolio__content{
+font-size:large;
+ width:  100%;
+
+}
+
    .portfolio__content__holder{
       font-size:0.8em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
    }
    .circle {
       max-width: 8em;
@@ -219,6 +258,8 @@
       font-size: 1rem;
       direction: rtl;
    }
+
+  
 }
 
 @media(min-width :1200px){

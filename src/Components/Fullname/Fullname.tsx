@@ -11,7 +11,7 @@ const Fullname = () => {
                 <p>{`<p>`}<span>من</span>{`</p>`}</p>
                 <span>{"<h1>"}</span>
                 
-                <h1 data-text="پوریا عبدالهی">
+                <h1 className="h1-size" data-text="پوریا عبدالهی">
                 {`پوریا عبدالهی`}
                 </h1>
 
