@@ -3,9 +3,9 @@ module.exports = {
     title: `Poriya Abdollahi`,
     description: `poriya abdollahi personal website`,
     author: `Poriya abdollahi`,
-    siteUrl: `https://poriyaabdollahi.ir/`,
+    siteUrl: `https://poriyaabdollahi.github.io/`,
   },
-  pathPrefix: `poriya-abdollahi`,
+  pathPrefix: ``,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
