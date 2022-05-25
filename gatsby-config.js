@@ -5,7 +5,7 @@ module.exports = {
     author: `Poriya abdollahi`,
     siteUrl: `https://poriyaabdollahi.github.io/`,
   },
-  pathPrefix: ``,
+  pathPrefix: `poriya-abdollahi`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
