@@ -12,7 +12,7 @@ const ConnectWithMe = () => {
            Github
          </div>
         </a>
-        <a href='https://www.instagram.com/poriyarushan.dark/' className='social__media__item social__two'>
+        <a href='https://www.instagram.com/poriyaabdollahi/' className='social__media__item social__two'>
           <div>
            Instagram        
           </div>
