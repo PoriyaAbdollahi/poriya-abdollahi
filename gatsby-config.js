@@ -3,7 +3,7 @@ module.exports = {
     title: `Poriya Abdollahi`,
     description: `poriya abdollahi personal website`,
     author: `Poriya abdollahi`,
-    siteUrl: `https://poriyaabdollahi.github.io/`,
+    siteUrl: `https://poriyaabdollahi.ir/`,
   },
   pathPrefix: `poriya-abdollahi`,
   plugins: [
