@@ -3,7 +3,7 @@
   "private": true,
   "description": "",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "poriyaabdollahi",
   "dependencies": {
     "gatsby": "^4.4.0",
     "gatsby-image": "^3.11.0",
@@ -14,6 +14,7 @@
     "gatsby-plugin-react-helmet": "^5.4.0",
     "gatsby-plugin-sass": "^5.9.0",
     "gatsby-plugin-sharp": "^4.6.0",
+    "gatsby-plugin-sitemap": "^5.15.0",
     "gatsby-source-filesystem": "^4.4.0",
     "gatsby-transformer-sharp": "^4.6.0",
     "node-sass": "^7.0.1",
