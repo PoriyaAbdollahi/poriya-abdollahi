@@ -53,7 +53,7 @@ const images = data.allImageSharp.edges
 const imageList = projects.map((project)=>{
    return   project.img
 })
-console.log(imageList)
+
  
 const previewImages = images.filter(element => {
   if(imageList.includes(element.node.fluid.originalName) ){
