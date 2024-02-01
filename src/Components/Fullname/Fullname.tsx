@@ -23,7 +23,7 @@ const Fullname = () => {
              <div className='circleholder' id='resumebtn'>
                 <div className="outerCircle"></div>
                 <div className="innerCircle"></div>
-                <div className="icon"><a href={"./resume1.pdf"} download>دانلود رزومه</a></div>
+                <div className="icon"><a href={"./پوریاعبدالهی.pdf"} download>دانلود رزومه</a></div>
             </div>              
              </div>
              </div>
